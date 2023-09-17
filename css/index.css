@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  max-width: 100%;
+}
+
+html {
+  font-size: 10px;
+  color: #1f1f1f;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 2;
+}
+
+p {
+  line-height: 1.5;
+}
+
+br {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.wrapper {
+  width: 95rem;
+  margin: 0 auto;
+  padding: 0 2.5rem 5rem 2.5rem;
+}
+
+.divider {
+  color: #7e7e7e;
+  border: none;
+  border-top: 1px solid #7e7e7e;
+}
+
+.header__menu {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.header__menu-item {
+  padding: 1rem;
+}
+.header__menu-link {
+  font-size: 1.4rem;
+  color: #7e7e7e;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: default;
+}
+.header__menu-link:hover {
+  color: #32080c;
+}
+
+.brief-info {
+  padding: 3rem 0;
+}
+.brief-info__title {
+  text-align: center;
+}
+.brief-info__text {
+  padding: 2rem 0 0 0;
+}
+
+.documentation__title {
+  text-align: left;
+  margin: 3.5rem 0 1.5rem 0;
+}
+.documentation__text {
+  margin: 2rem 0 2rem 0;
+}
+.documentation__list-item {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.documentation__list-item:first-child {
+  margin-top: 1rem;
+}
+.documentation__image {
+  margin: 2rem 0 2rem 0;
+}
+.documentation__code {
+  padding-left: 4rem;
+}
+.documentation__table {
+  margin: 4rem 0;
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  font-size: 1.6rem;
+}
+.documentation__table caption {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.documentation__table th {
+  font-weight: bold;
+  padding: 5px;
+  background: #efefef;
+  border: 1px solid #dddddd;
+}
+.documentation__table td {
+  border: 1px solid #dddddd;
+  padding: 5px;
+}/*# sourceMappingURL=index.css.map */
